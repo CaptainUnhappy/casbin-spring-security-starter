@@ -17,11 +17,12 @@
         <system>Github</system>
         <url>https://github.com/jcasbin/casbin-spring-security-starter/issues</url>
     </issueManagement>
-
+    
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.5</version>
+        <relativePath/>
     </parent>
     <licenses>
         <license>
@@ -80,6 +81,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
+	    <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
